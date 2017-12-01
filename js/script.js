@@ -5,6 +5,10 @@ $(document).ready(function(){
 		$('.list-navigation').toggleClass('active');
 	});
 
+	$('.nav-items').on('click', function(){
+		$('.nav-items').removeClass('active-items');
+		$(this).addClass('active-items');
+	});
 
 	$('#slider-our-team').owlCarousel({
 	    loop:true,

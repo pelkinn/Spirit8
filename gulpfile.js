@@ -8,11 +8,11 @@ var gulp = require('gulp'),
 var smartgridSettings = {
     outputStyle: 'less', /* less || scss || sass || styl */
     columns: 12, /* number of grid columns */
-    offset: '30px', /* gutter width px || % */
+    offset: '20px', /* gutter width px || % */
     mobileFirst: false, /* mobileFirst ? 'min-width' : 'max-width' */
     container: {
-        maxWidth: '1170px', /* max-width оn very large screen */
-        fields: '15px' /* side fields */
+        maxWidth: '960px', /* max-width оn very large screen */
+        fields: '10px' /* side fields */
     },
     breakPoints: {
         lg: {

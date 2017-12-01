@@ -61,10 +61,10 @@ body {
 						color: #fcac45;
 					}
 				}
-				.active-items {
+		  	}
+		  	.active-items {
 					border-bottom: 2px solid #fcac45;
 				}
-		  	}
 		}
 	
 		.icon {
@@ -235,7 +235,7 @@ body {
 		  	.browse-work {
 		  		display: inline-block;
 		  		position: relative;
-			font-size: 12px;
+				font-size: 12px;
 		  		line-height: 12px;
 		  		color: #636363;
 		  		text-transform: uppercase;
@@ -252,6 +252,11 @@ body {
 					height: 12px;
 					left: 19px;
 					background-image: url(../img/briefcase.svg);
+				}
+				&:hover,
+				&:focus {
+					background-color: #fcac45;
+					color: #fff;
 				}
 		  	}
 		}	

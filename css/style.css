@@ -154,7 +154,7 @@ a {
 .main-header .title-nav .list-navigation .navigation-ittems a:focus {
   color: #fcac45;
 }
-.main-header .title-nav .list-navigation .navigation-ittems .active-items {
+.main-header .title-nav .list-navigation .active-items {
   border-bottom: 2px solid #fcac45;
 }
 .main-header .title-nav .icon {
@@ -350,6 +350,11 @@ a {
   height: 12px;
   left: 19px;
   background-image: url(../img/briefcase.svg);
+}
+.about-us .about-us-wrapper .about-us-content .browse-work:hover,
+.about-us .about-us-wrapper .about-us-content .browse-work:focus {
+  background-color: #fcac45;
+  color: #fff;
 }
 .our-team {
   width: 100%;
